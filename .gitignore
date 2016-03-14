@@ -1,0 +1,10 @@
+*.log
+*.py[co]
+__pycache__
+*.sqlite3
+
+venv
+
+b_custom_username
+c_custom_email
+d_third_party

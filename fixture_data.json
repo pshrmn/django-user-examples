@@ -1,0 +1,122 @@
+[
+  {
+    "model": "aorb.pair",
+    "pk": 1,
+    "fields": {
+      "a": "cat",
+      "b": "dog"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 2,
+    "fields": {
+      "a": "apple",
+      "b": "orange"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 3,
+    "fields": {
+      "a": "spider",
+      "b": "snake"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 4,
+    "fields": {
+      "a": "up",
+      "b": "down"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 5,
+    "fields": {
+      "a": "left",
+      "b": "right"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 6,
+    "fields": {
+      "a": "true",
+      "b": "false"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 7,
+    "fields": {
+      "a": "po-tay-to",
+      "b": "pa-tah-to"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 8,
+    "fields": {
+      "a": "to-may-to",
+      "b": "ta-mah-to"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 9,
+    "fields": {
+      "a": "red",
+      "b": "green"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 10,
+    "fields": {
+      "a": "stairs",
+      "b": "elevator"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 11,
+    "fields": {
+      "a": "city",
+      "b": "country"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 12,
+    "fields": {
+      "a": "hot",
+      "b": "cold"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 13,
+    "fields": {
+      "a": "shaken",
+      "b": "stirred"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 14,
+    "fields": {
+      "a": "knowledge",
+      "b": "power"
+    }
+  },
+  {
+    "model": "aorb.pair",
+    "pk": 15,
+    "fields": {
+      "a": "fiction",
+      "b": "non-fiction"
+    }
+  }
+]
