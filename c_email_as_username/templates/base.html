@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email as Username</title>
+</head>
+<body>
+<header>
+  {% if user.is_authenticated %}
+    Welcome, {{ user.get_short_name }}
+    <a href="{% url 'logout' %}">Logout</a>
+  {% else %}
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'register' %}">Register</a>
+  {% endif %}
+</header>
+<main>
+  {% block main %}
+  {% endblock main %}
+</main>
+</body>
+</html>
