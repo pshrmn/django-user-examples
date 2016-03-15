@@ -1,8 +1,8 @@
 *.log
+*.bat
 *.py[co]
 __pycache__
 *.sqlite3
 
+.env
 venv
-
-d_third_party

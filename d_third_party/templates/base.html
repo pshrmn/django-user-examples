@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Third Party User</title>
+</head>
+<body>
+<header>
+  {% if user.is_authenticated %}
+    Welcome, {{ user.username }}
+    <a href="{% url 'logout' %}">Logout</a>
+  {% else %}
+   <li>
+     <a href="{% url 'social:begin' backend='github' %}">Login with GitHub</a>
+   </li>
+  {% endif %}
+</header>
+<main>
+  {% block main %}
+  {% endblock main %}
+</main>
+</body>
+</html>
